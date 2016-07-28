@@ -30,6 +30,11 @@ System.register(['@angular/router', './dashboard/dashboard.component', './home/h
                 {
                     path: 'login',
                     component: login_component_1.LoginComponent
+                },
+                {
+                    path: '',
+                    redirectTo: '/home',
+                    pathMatch: 'full'
                 }
             ];
             exports_1("APP_ROUTER_PROVIDERS", APP_ROUTER_PROVIDERS = [

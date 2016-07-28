@@ -22,7 +22,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
             };
             DashboardComponent = __decorate([
                 core_1.Component({
-                    templateUrl: 'dashboard.component.html'
+                    templateUrl: 'app/dashboard/dashboard.component.html'
                 }), 
                 __metadata('design:paramtypes', [])
             ], DashboardComponent);

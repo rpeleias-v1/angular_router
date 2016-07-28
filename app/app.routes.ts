@@ -15,6 +15,11 @@ const routes: RouterConfig = [
     {
         path: 'login',
         component: LoginComponent
+    },
+    {
+        path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
     }
 ];
 

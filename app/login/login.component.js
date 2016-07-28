@@ -22,7 +22,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
             };
             LoginComponent = __decorate([
                 core_1.Component({
-                    templateUrl: 'login.component.html'
+                    templateUrl: 'app/login/login.component.html'
                 }), 
                 __metadata('design:paramtypes', [])
             ], LoginComponent);
